@@ -1,0 +1,23 @@
+{
+  "name": "staking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.12.7",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "wagmi": "^0.12.9"
+  }
+}
